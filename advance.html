@@ -11,8 +11,45 @@
 
 </head>
 
-<body>
+<body class="d-flex justify-content-center align-items-center">
     <div id="header"></div>
+    <main class="container my-5">
+        <h2 class="mb-4 text-center">Advanced Search</h2>
+        <form action="https://www.google.com/search" method="GET" class="d-flex flex-column gap-3">
+            <div class="row align-items-center">
+                <label for="all" class="col-md-4 col-form-label fw-semibold text-wrap">All these words:</label>
+                <div class="col-md-8">
+                    <input type="text" id="all" name="as_q" class="form-control">
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <label for="exact" class="col-md-4 col-form-label fw-semibold text-wrap">This exact word or
+                    phrase:</label>
+                <div class="col-md-8">
+                    <input type="text" id="exact" name="as_epq" class="form-control">
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <label for="any" class="col-md-4 col-form-label fw-semibold text-wrap">Any of these words:</label>
+                <div class="col-md-8">
+                    <input type="text" name="as_og" id="any" class="form-control">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <label for="none" class="col-md-4 col-form-label fw-semibold text-wrap">None of these words:</label>
+                <div class="col-md-8">
+                    <input type="text" id="none" name="as_eq" class="form-control">
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary px-4">Advanced Search</button>
+            </div>
+        </form>
+    </main>
+
+
     <div id="footer"></div>
     <script src="loeadHeaderAndFooter.js"></script>
 </body>
