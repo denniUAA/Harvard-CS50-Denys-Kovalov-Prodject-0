@@ -31,10 +31,7 @@ nav .nav-link:hover {
 
 /* search section*/
 .btn.btn-primary {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
     border-radius: 8px;
-    color: #3c4043;
     font-family: Google Sans, Arial, sans-serif;
     font-optical-sizing: none;
     font-size: 14px;

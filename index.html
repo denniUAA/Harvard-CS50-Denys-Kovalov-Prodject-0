@@ -16,10 +16,13 @@
 
     <main>
         <div class="mb-4"><img src="Image\Google_logo.png" alt="Google_logo" class="img-fluid w-75"></div>
-        <form action="https://www.google.com/search" method="GET" class="mb-3 w-100 d-flex gap-2">
-            <input type="text" name="q" class="form-control mb-2" placeholder="Search">
-            <input type="submit" value="Google Search" class="btn btn-primary mb-2 w-50">
-            <input type="submit" name="btnI" value="I’m Feeling Lucky" class="btn btn-primary mb-2 w-50">
+        <form action="https://www.google.com/search" method="GET"
+            class="d-flex flex-column gap-3 align-items-center mb-2 w-100">
+            <input type="text" name="q" class="form-control" placeholder="Search">
+            <div class="d-flex gap-3">
+                <input type="submit" value="Google Search" class="btn btn-primary">
+                <input type="submit" name="btnI" value="I’m Feeling Lucky" class="btn btn-primary">
+            </div>
         </form>
 
     </main>
